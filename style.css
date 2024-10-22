@@ -546,10 +546,7 @@
     border-radius: 18px;
     transition: ease-in-out 8s;
   }
-  #clients .card-container .card .image-container .box.box1 {
-    background: url(images/locksmith.webp);
-    background-size: cover;
-  }
+
   #clients .car-container .card .image-container .box:hover {
     background-position: bottom;
   }
@@ -710,19 +707,19 @@
     transition: ease-in-out 8s;
   }
   #projects .container .content-container .card .image-container .box.box1 {
-    background: url(images/locksmith.webp);
+    background: url(images/vistaDoctor.png);
     background-size: cover;
   }
   #projects .container .content-container .card .image-container .box.box2 {
-    background: url(images/MoneyMagImage.webp);
+    background: url(images/ContactApp.png);
     background-size: cover;
   }
   #projects .container .content-container .card .image-container .box.box3 {
-    background: url(images/wecare.png);
+    background: url(images/tictactoe.png);
     background-size: cover;
   }
   #projects .container .content-container .card .image-container .box.box4 {
-    background: url(images/cvworth.png);
+    background: url(images/JuegoSnake.png);
     background-size: cover;
   }
   #projects .container .content-container .card .image-container .box:hover {
