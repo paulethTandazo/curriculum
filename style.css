@@ -437,6 +437,24 @@
                       linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
     background-size: 20px 20px; /* Smaller grid pattern */
   }
+  .client-position {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #ffffff; 
+  }
+  .client-activities {
+    margin-bottom: 20px;
+  }
+  .client-activities ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #b8b8b8; 
+  }
+  
+  .client-activities li {
+    margin-bottom: 5px;
+  }
   .client-logo {
     width: 70px;
     height: 70px;
@@ -452,19 +470,11 @@
     margin-bottom: 10px;
     color: #ffffff;
   }
-  .client-rating {
-    margin-bottom: 20px;
-  }
-  .client-rating i {
-    color: #ffc107;
-    font-size: 18px;
-  }
-  .client-review {
-    font-size: 15px;
-    font-style: italic;
-    line-height: 1.6;
-    color: #b8b8b8;
-    margin-bottom: 30px;
+  .client-experiences {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 20px; 
   }
   .client-social {
     display: flex;
