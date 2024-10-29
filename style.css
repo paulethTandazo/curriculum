@@ -6,12 +6,11 @@
   transition: all ease-in-out 0.2s;
 }
 
-/* Initially hide all sections */
+
 .hidden {
   opacity: 0;
   filter: blur(6px);
   transform: translateY(50px);
-  /* Start slightly lower */
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
@@ -21,7 +20,7 @@
   transform: translateY(0);
 }
 
-/* DEFAULT THEME VALUES */
+
 :root {
   --background-color: #121212;
   --text-color: #ffffff;
@@ -115,7 +114,7 @@ html {
   color: #147efb;
 }
 
-/* DARK AND LIGHT THEME TOGGLE */
+/* Oscuro y claro */
 .appearance {
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
@@ -156,7 +155,7 @@ html {
   opacity: 0;
 }
 
-/* HAMBURGER  */
+/* Hamburguesa o hamburger  */
 .hamburger {
   cursor: pointer;
 }
@@ -166,9 +165,7 @@ html {
 }
 
 .hamburger svg {
-  /* The size of the SVG defines the overall size */
   height: 3em;
-  /* Define the transition for transforming the SVG */
   transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -178,7 +175,6 @@ html {
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 3;
-  /* Define the transition for transforming the Stroke */
   transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
     stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -221,7 +217,6 @@ html {
   font-weight: 800;
 }
 
-/* header Page */
 #header {
   height: 700px;
 }
@@ -309,10 +304,8 @@ html {
 #header .container {
   display: flex;
   flex-direction: column;
-  /* Ensure a column layout */
   align-items: center;
   justify-content: center;
-  /* Center content horizontally */
   margin-top: 20px;
 }
 
@@ -361,7 +354,6 @@ span a {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Bounce on hover */
 .tech-image:hover {
   transform: translateY(-10px) scale(1.1);
 }
@@ -1218,7 +1210,7 @@ span a {
   color: #147efb;
 }
 
-/* MOBILE RESPONSIVNESS */
+/* MOBILE RESPONSIVNESS para el celu */
 @media (max-width: 868px) {
   body.disabled {
     overflow: hidden;
@@ -1395,7 +1387,7 @@ span a {
     width: 90%;
   }
 
-  /*ABOUT RESPONSIVE CODE */
+  /*ABOUT codigo responsivo */
   #about .container .content-container .image-container .box .user-image {
     width: 90%;
     height: 90%;
@@ -1437,7 +1429,7 @@ span a {
     margin: 20px 0px 35px 0px;
   }
 
-  /* PROJECTS RESPONSIVNESS */
+  /* seccion para el proyecto */
   #projects .container {
     width: 100%;
   }
@@ -1473,7 +1465,7 @@ span a {
     height: 50%;
   }
 
-  /* CONTACT RESPONSIVNESS */
+  /* Contacto estilitos */
   #contact .container {
     height: auto;
   }
@@ -1502,7 +1494,7 @@ span a {
     margin: 5px;
   }
 
-  /* FOOTER RESPONSIVNESS */
+  /* FOOTER estilitos */
   .footer {
     padding: 20px 0px 20px 0px;
   }
@@ -1568,6 +1560,7 @@ span a {
   margin-top: 5px;
   font-family: "Mulish", sans-serif;
 }
+/*para el video*/
 .video-container {
   width: 100%;
   height: 300px;
@@ -1579,5 +1572,5 @@ span a {
 .video-content {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Asegura que el video cubra todo el área sin deformarse */
+  object-fit: cover; 
 }
