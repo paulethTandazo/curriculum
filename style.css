@@ -1574,3 +1574,10 @@ span a {
   height: 100%;
   object-fit: cover; 
 }
+.form-header{
+  text-align: center;
+}
+.submit-btn {
+  display: block;
+  margin: 0 auto;
+}

@@ -576,7 +576,7 @@
           };
         });
       });
-      //Light dark theme toggle js code (representa el theme toggle para los dos modos)
+      //Alterna entre los temas claro y oscuro en toda la página 
       $('.appearance').click(function () {
         $('body').toggleClass("dark");
         $(this).toggleClass("switch");
@@ -584,7 +584,7 @@
       document.addEventListener('DOMContentLoaded', () => {
         const themeToggleButton = document.getElementById('theme-toggle');
         const typingSvg = document.querySelector('.head-text .typing-svg');
-        const savedTheme = localStorage.getItem('theme') || 'dark';
+        const savedTheme = localStorage.getItem('theme') || 'light'; /*pa que se muestra al principio en modo claro*/
 
         // Función para cambiar el src del texto según el tema
         function setTypingSvgSrc(theme) {
